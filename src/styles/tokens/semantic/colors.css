@@ -1,0 +1,9 @@
+:root {
+  --primary-color: var(--color-blue-500);
+  --primary-hover: var(--color-blue-600);
+  --primary-text: var(--color-white);
+
+  --secondary-color: var(--color-gray-500);
+  --secondary-hover: var(--color-gray-600);
+  --secondary-text: var(--color-white);
+}

@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  padding: var(--button-padding);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  border: none;
+}
+
+.primary {
+  background: var(--primary-color);
+  color: var(--primary-text);
+}
+.primary:hover {
+  background: var(--primary-hover);
+}
+
+.secondary {
+  background: var(--secondary-color);
+  color: var(--secondary-text);
+}
+.secondary:hover {
+  background: var(--secondary-hover);
+}
