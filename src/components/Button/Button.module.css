@@ -7,17 +7,17 @@
 }
 
 .primary {
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   color: var(--primary-text);
 }
 .primary:hover {
-  background: var(--primary-hover);
+  background-color: var(--primary-hover);
 }
 
 .secondary {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   color: var(--secondary-text);
 }
 .secondary:hover {
-  background: var(--secondary-hover);
+  background-color: var(--secondary-hover);
 }

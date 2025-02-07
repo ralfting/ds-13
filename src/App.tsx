@@ -4,9 +4,7 @@ import Text from './components/Text/Text'
 function App() {
   return (
     <>
-      <h1>teste</h1>
-      {/* <Text as='a' htmlFor="">Teste</Text> */}
-      <Button>Button</Button>
+      <Button variant='secondary'>Button</Button>
     </>
   )
 }
