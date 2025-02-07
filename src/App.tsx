@@ -1,10 +1,11 @@
 import { Button } from './components'
-import Text from './components/Text/Text'
+import Typography from './components/Typography/Typopgraphy'
 
 function App() {
   return (
     <>
-      <Button variant='secondary'>Button</Button>
+      <Button as='button' variant='primary'>My Button</Button>
+      <Typography size='lg'>gello</Typography>
     </>
   )
 }

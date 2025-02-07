@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   padding: var(--button-padding);
-  border-radius: var(--radius-md);
+  border-radius: var(--button-radius);
   cursor: pointer;
   border: none;
 }
