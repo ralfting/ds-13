@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>teste</h1>
-      <Button as="div" onClick={() => console.log('clicked')} variant='primary'>Teste</Button>
+      <Button href="" as="a">Teste</Button>
     </>
   )
 }
