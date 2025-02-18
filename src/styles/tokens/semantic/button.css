@@ -1,4 +1,8 @@
 :root {
   --button-padding: var(--spacing-3) var(--spacing-5);
   --button-radius: var(--radius-md);
+
+  --button-font-sm: var(--font-size-sm);
+  --button-font-md: var(--font-size-md);
+  --button-font-lg: var(--font-size-lg);
 }
