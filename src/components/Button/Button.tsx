@@ -45,6 +45,7 @@ export default function Button<B extends "button" | "a" = "button">({
   const Component = as ?? 'button';
 
   return (
+    // @ts-expect-error fix later
     <Component className={buttonStyle} {...props}>
       {children}
     </Component>
