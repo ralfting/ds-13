@@ -21,6 +21,7 @@ type Props<C extends React.ElementType> = {
   */
   variant?: "primary" | "secondary";
   children: React.ReactNode;
+  size?: "sm" | "md" | "lg";
 };
 
 type ButtonProps<C extends React.ElementType> = Props<C> &
@@ -37,9 +38,10 @@ export default function Button<B extends "button" | "a" = "button">({
   variant = "primary",
   as,
   className,
+  size = 'md',
   ...props
 }: ButtonProps<B>) {
-  const buttonStyle = cn(className, styles.button, styles[variant]);
+  const buttonStyle = cn(className, styles.button, styles[variant], styles[size]);
   const Component = as ?? 'button';
 
   return (

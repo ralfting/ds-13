@@ -4,8 +4,10 @@ import Typography from './components/Typography/Typopgraphy'
 function App() {
   return (
     <>
-      <Button as='button' variant='primary'>My Button</Button>
-      <Typography size='lg'>gello</Typography>
+      {/* <Button as='button' variant='primary'>My Button</Button> */}
+      <Button as='a' variant='primary'>My Button</Button>
+      <Button variant='secondary'>My Button</Button>
+      <Typography size='lg'>Hello</Typography>
     </>
   )
 }
